@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://ad.interactive.lzdata.com.cn/sso/loginSuccess -->
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta content="telephone=no" name="format-detection">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <link rel="stylesheet" href="./index/bootstrap.min.css">
+  <link rel="stylesheet" href="./index/style.css">
+  <!--<script src="https://interactive-js.angpi.cn/1608860161948_jspdf.umd.min.js"></script>-->
+  <!--<script src="https://interactive-js.angpi.cn/1608860114600_html2canvas.min.js"></script>-->
+  <script src="https://cdn.bootcss.com/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+  <script src="https://cdn.bootcss.com/jspdf/1.3.4/jspdf.debug.js"></script>
+  <!-- new style -->
+  <link rel="stylesheet" href="./index.css">
+  <title>首页
+
+    - 广告代理商开放平台
+
+  </title>
+
+
+  <!-- dashboard calendar -->
+  <link rel="stylesheet" type="text/css" href="./index/clndr.css">
+  <!-- tags input -->
+  <link rel="stylesheet" type="text/css" href="./index/jquery.tagsinput.css">
+  <!-- jquery.validate -->
+  <link rel="stylesheet" type="text/css" href="./index/jquery.validate.min.css">
+  <!--jbox-->
+  <link rel="stylesheet" type="text/css" href="./index/jbox.min.css">
+  <!-- common -->
+  <link rel="stylesheet" type="text/css" href="./index/style(1).css">
+  <link rel="stylesheet" type="text/css" href="./index/style-responsive.css">
+  <link rel="stylesheet" type="text/css" href="./index/shopstyle.css">
+
+
+  <!-- jquery -->
+
+  <script type="text/javascript" src="./index/jquery-2.1.4.min.js"></script>
+  <!-- layer -->
+  <script type="text/javascript" src="./index/layer.js"></script>
+  <link rel="stylesheet" href="./index/layer.css" id="layuicss-skinlayercss">
+  <!-- layertpl -->
+  <script type="text/javascript" src="./index/laytpl.js"></script>
+  <!-- fdp.js -->
+  <script type="text/javascript" src="./index/fdp.js"></script>
+  <!-- 全局变量 -->
+  <script type="text/javascript">
+    var jsValidate = true, ctx = '', ctxa = '', ctxs = '', ctxm = '', ctxf = '', ctxu = '',
+      ctxStatic = 'http://static.lzdata.com.cn/static', ctxfs = '', ctxsso = '';
+
+  </script>
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>-->
+  <!--<script src="http://static.lzdata.com.cn/static/lzzhrt-admin/js/html5shiv.js" type="text/javascript"></script>-->
+  <!--<script src="http://static.lzdata.com.cn/static/lzzhrt-admin/js/respond.min.js" type="text/javascript"></script>-->
+  <!--[endif]---->
+
+
+  <meta name="description" content="">
+  <meta name="Keywords" content="">
+
+  <meta name="decorator" content="adver">
+  <style type="text/css">
+      .total_class {
+          display: -ms-flex;
+          display: -moz-flex;
+          display: -o-flex;
+          display: -webkit-flex;
+          display: flex;
+          -ms-justify-content: space-between;
+          -moz-justify-content: space-between;
+          -o-justify-content: space-between;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+          -ms-align-items: center;
+          -moz-align-items: center;
+          -o-align-items: center;
+          -webkit-align-items: center;
+          align-items: center;
+          padding: 4px 6px 10px 6px;
+          border-bottom: 1px solid #999;
+      }
+
+      .data_id_box {
+          padding: 8px 10px;
+      }
+
+      #data_id {
+          border: 1px solid #999;
+          padding: 5px 10px;
+      }
+
+      #data_id table {
+          width: 100%;
+          text-align: center;
+      }
+
+      #data_id table thead tr,
+      #data_id table tbody tr {
+          border-bottom: 1px solid #999;
+      }
+
+      #data_id table tbody tr:last-child {
+          border-bottom: none;
+      }
+
+      #data_id table thead tr th {
+          text-align: center;
+          padding: 6px 0;
+      }
+
+      #data_id table tbody tr td {
+          padding: 8px 0;
+      }
+
+      #data_id table tbody tr.total {
+          background-color: #efefef;
+      }
+
+      .button_group_class button {
+          border-radius: 50px;
+          border: 1px solid #666;
+          background-color: #fff;
+          color: #333;
+      }
+
+      .button_group_class button.active_class {
+          background-color: #4D96DF;
+          color: #fff;
+      }
+  </style>
+
+  <link rel="stylesheet" href="./index/laydate.css" id="layuicss-laydate">
+</head>
+<body class="sticky-header ">
+<div class="page-container pc nav-open">
+  <!-- 左侧栏 left side start-->
+
+
+  <div class="page-left">
+    <div class="nav-header clearFloat">
+      <div class="user-info">
+        <!-- 头像 -->
+        <img class="profile-picture" src="./index/default_user_img.png"
+             onerror="javascript:this.src=&#39;http://static.lzdata.com.cn/static/adver/images/default_user_img.png&#39;;">
+        <!-- 用户名 -->
+        <p class="user-name" title="广告组233" style="cursor: pointer">广告组233</p>
+      </div>
+      <div class="btn-box">
+        <a id="menuBtn" class="menu-btn"><i class="iconfont icon-caidan"></i></a>
+      </div>
+    </div>
+    <!-- 导航 -->
+    <ul class="nav-menu">
+      <li>
+        <a href="#"><i class="icon zhanghu"></i><span class="nav-text">财务管理</span></a>
+        <div class="subset-menu">
+          <p><i class="icon zhanghu"></i><span class="nav-text">结账单管理</span></p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 左侧栏 left side end-->
+
+  <!-- 右侧栏主区main content start-->
+  <div class="page-right">
+    <!-- 头部 -->
+    <div class="header clearFloat">
+      <div class="header-right">
+        <p class="wel-text">广告代理商开放平台，欢迎您！
+
+          <sapn class="signOut-Btn" title="退出登录">
+            <a href="http://ad.interactive.lzdata.com.cn/sso/logout"><i class="iconfont icon-tuichu"></i></a>
+          </sapn>
+        </p>
+      </div>
+    </div>
+    <!--主体-->
+    <div class="page-content" tabindex="1">
+      <div class="settlement-management">
+        <div class="settlement-header">
+          <h3>结算单管理</h3>
+          <h6><img src="./img/fapiao.png" alt=""><span>按照以下要求盖章结算单并寄送发票，轻松收到提现金额</span></h6>
+          <div class="settlement-list-box">
+            <ul class="settlement-list">
+              <li>
+                <img src="./img/seal_icon.png" alt="">
+                <div class="">
+                  <p>确认并盖章结算单</p>
+                  <p>点击“下载结算单”查看结算单的信息是否正确并下载签字/盖章</p>
+                </div>
+              </li>
+              <img src="./img/the_arrow.png" class="right_img" alt=">">
+              <li>
+                <img src="./img/invoice_icon.png" alt="">
+                <div class="">
+                  <p>正确开具发票</p>
+                  <p>二三联发票及加速盖发票专用章</p>
+                </div>
+              </li>
+              <img src="./img/the_arrow.png" class="right_img" alt=">">
+              <li>
+                <img src="./img/mail_icon.png" alt="">
+                <div class="">
+                  <p>发票及结算单邮寄</p>
+                  <p>结算单加盖公司公（一式两份）连同发票一起寄出</p>
+                </div>
+              </li>
+              <img src="./img/the_arrow.png" class="right_img" alt=">">
+              <li>
+                <img src="./img/card_icon.png" alt="">
+                <div class="">
+                  <p>提现进度</p>
+                  <p>审核后，将结算金额转至预留账户。并将结算单状态改为“已结算”请核查结算单信息！</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="statement-content">
+          <div class="statement-table">
+            <table class="table" style="border: 1px solid #EBEBEB">
+              <thead>
+                <tr style="border-bottom-width:2px;">
+                  <th>日期</th>
+                  <th>开票公司</th>
+                  <th>结算单状态</th>
+                  <th>结算金额（元）</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td><span class="the_default not_generate">未生成</span></td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td><span class="the_default the_generate">已生成</span></td>
+                  <td>46546.11</td>
+                  <td>
+                    <span class="download_statement">下载结算单</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td>
+                    <div class="been_settled_box">
+                      <img src="./img/true_icon.png" alt="">
+                      <span class="the_default has_been_settled">已结算</span>
+                    </div>
+                  </td>
+                  <td>46546.11</td>
+                  <td>
+                    <span class="download_statement">下载结算单</span>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="load_list">
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td><span class="the_default not_generate">未生成</span></td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td><span class="the_default the_generate">已生成</span></td>
+                  <td>46546.11</td>
+                  <td>
+                    <span class="download_statement">下载结算单</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td>
+                    <div class="been_settled_box">
+                      <img src="./img/true_icon.png" alt="">
+                      <span class="the_default has_been_settled">已结算</span>
+                    </div>
+                  </td>
+                  <td>46546.11</td>
+                  <td>
+                    <span class="download_statement">下载结算单</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td><span class="the_default not_generate">未生成</span></td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td><span class="the_default the_generate">已生成</span></td>
+                  <td>46546.11</td>
+                  <td>
+                    <span class="download_statement">下载结算单</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2020-12</td>
+                  <td>北京展鸿软通科技股份有限公司</td>
+                  <td>
+                    <div class="been_settled_box">
+                      <img src="./img/true_icon.png" alt="">
+                      <span class="the_default has_been_settled">已结算</span>
+                    </div>
+                  </td>
+                  <td>46546.11</td>
+                  <td>
+                    <span class="download_statement">下载结算单</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="load_more">点击查看更多结算单</div>
+          </div>
+          <div class="invoice-information">
+            <div class="invoice-information-box">
+              <h5>开票信息1</h5>
+              <p class="invoice-information-list">
+                <span>发票内容</span>
+                <span>信息技术服务费</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>发票类型</span>
+                <span>增值税专用发票（6%税点）</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>公司名称</span>
+                <span>北京展鸿软通科技股份有限公司</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>公司地址</span>
+                <span>北京市西城区新街口外大街28号A座218号</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>电话</span>
+                <span>010-67311583</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>纳税人识别号</span>
+                <span>9111010279514447XP</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>开户行账号</span>
+                <span>中国工商银行股份有限公司北京左安门支行0200001209024933020</span>
+              </p>
+            </div>
+            <div class="invoice-information-box">
+              <h5>开票信息2</h5>
+              <p class="invoice-information-list">
+                <span>发票内容</span>
+                <span>增值税普通发票</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>公司地址</span>
+                <span>长沙经济技术开发区星沙产业基地蓝天北路1号星沙区块链产业园401号（集群注册）</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>纳税人识别号</span>
+                <span>91430100MA4R45T09Y称</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>开户行账号</span>
+                <span>招商银行股份有限公司长沙星沙支行<br>7319-0793-0210 466</span>
+              </p>
+            </div>
+            <div class="invoice-information-box">
+              <h5>发票邮寄地址：</h5>
+              <p class="invoice-information-list">
+                <span>地    址</span>
+                <span>北京市朝阳区十里河德元九和大厦510</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>邮    编</span>
+                <span>100122</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>联系人</span>
+                <span>阿木</span>
+              </p>
+              <p class="invoice-information-list">
+                <span>电    话</span>
+                <span>13011028809</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr"
+         style="width: 9px; z-index: 1; background: rgb(255, 255, 255); cursor: default; position: absolute; top: 60px; left: 1271px; height: 648px; display: block; opacity: 1;">
+      <div class="nicescroll-cursors"
+           style="position: relative; top: 0px; float: right; width: 9px; height: 602px; background-color: rgb(65, 68, 83); border: 0px; background-clip: padding-box; border-radius: 10px;"></div>
+    </div>
+    <div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr"
+         style="height: 9px; z-index: 1; background: rgb(255, 255, 255); top: 699px; left: 0px; position: absolute; cursor: default; display: none; opacity: 1; width: 1271px;">
+      <div class="nicescroll-cursors"
+           style="position: absolute; top: 0px; height: 9px; width: 1280px; background-color: rgb(65, 68, 83); border: 0px; background-clip: padding-box; border-radius: 10px; left: 0px;"></div>
+    </div>
+  </div>
+  <div class="nav-mask"></div>
+</div>
+<!--媒体结算单-->
+<div class="media-statement-box">
+  <div class="media-statement-content">
+    <div class="media-st-show">
+      <div class="media-statement-table">
+        <div class="ms-title put-ash" id="statements_title">北京天卓科技有限公司&北京展鸿软通科技股份有限公司何合作结算单</div>
+        <div class="ms-table-row put-ash">
+          <div class="ms-20-row">媒体名称</div>
+          <div class="ms-30-row" id="statements_name">北京天卓科技有限公司</div>
+          <div class="ms-20-row">提现金额</div>
+          <div class="ms-30-row" id="statements_withdrawal">¥45,673.00</div>
+        </div>
+        <div class="ms-table-row put-ash">
+          <div class="ms-20-row">结算周期</div>
+          <div class="ms-80-row" id="statements_data">2020.11</div>
+        </div>
+        <div class="blank-space"></div>
+        <div class="ms-table-row">
+          <div class="ms-20-row">联系人<span>*</span></div>
+          <div class="ms-30-row"><input type="text" id="statements_contact" placeholder="请输入媒体主联系人"></div>
+          <div class="ms-20-row">联系电话<span>*</span></div>
+          <div class="ms-30-row"><input type="text" id="statements_phone" placeholder="请输入媒体主电话"></div>
+        </div>
+        <div class="ms-table-row">
+          <div class="ms-20-row">寄件人地址<span>*</span></div>
+          <div class="ms-80-row"><input type="text" id="statements_address" placeholder="请输入寄件地址,需要回寄结算单,请填写并核准后回寄信息"></div>
+        </div>
+        <div class="ms-table-row">
+          <div class="ms-20-row">银行卡号<span>*</span></div>
+          <div class="ms-30-row"><input type="text"  id="statements_bank_card" placeholder="请输入银行卡号"></div>
+          <div class="ms-20-row">开户人<span>*</span></div>
+          <div class="ms-30-row"><input type="text"  id="statements_person" placeholder="请输入开户人"></div>
+        </div>
+        <div class="ms-table-row">
+          <div class="ms-20-row">开户银行<span>*</span></div>
+          <div class="ms-80-row"><input type="text"  id="statements_bank" placeholder="请输入开户银行名称"></div>
+        </div>
+        <div class="ms-instructions">
+          <h6>说明</h6>
+          <ol>
+            <li><span>1、</span>此结算单不包括结算周期以外发生的款项，如有错漏，请与我司业务负责人联系。</li>
+            <li><span>2、</span>收到此结算单核对无误后请及时盖章并回传。（可以以扫描件形式发送给我司相关业务负责人）</li>
+            <li><span>3、</span>以上数据如有错误请在五天内告知，以便更在，否则当确认伦。<br>&nbsp;&nbsp;&nbsp;&nbsp;以上信息，请尽快核对，感谢贵司一直以来的支持和惠顾！</li>
+          </ol>
+          <p>
+            (签字/盖章）
+            <br>日期
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="page" class="media-st-hide right-aside" style="width: 1000px;color: black;background: white;">
+      <!--1st-->
+      <div id="first">
+        <div class="media-statement-table">
+          <div class="ms-title" style="color: #000;" id="dy_title"></div>
+          <div class="ms-table-row">
+            <div class="ms-20-row">媒体名称</div>
+            <div class="ms-30-row" id="dy_media_name"></div>
+            <div class="ms-20-row">提现金额</div>
+            <div class="ms-30-row" id="dy_withdrawal"></div>
+          </div>
+          <div class="ms-table-row">
+            <div class="ms-20-row">结算周期</div>
+            <div class="ms-80-row" id="dy_settlement_cycle"></div>
+          </div>
+          <div class="blank-space"></div>
+          <div class="ms-table-row">
+            <div class="ms-20-row">联系人</div>
+            <div class="ms-30-row" id="dy_contact"></div>
+            <div class="ms-20-row">联系电话</div>
+            <div class="ms-30-row" id="dy_phone"></div>
+          </div>
+          <div class="ms-table-row">
+            <div class="ms-20-row">寄件人地址</div>
+            <div class="ms-80-row" id="dy_address"></div>
+          </div>
+          <div class="ms-table-row">
+            <div class="ms-20-row">银行卡号</div>
+            <div class="ms-30-row" id="dy_bank_card"></div>
+            <div class="ms-20-row">开户名称</div>
+            <div class="ms-30-row" id="dy_account_name"></div>
+          </div>
+          <div class="ms-table-row">
+            <div class="ms-20-row">开户银行</div>
+            <div class="ms-80-row" id="dy_bank"></div>
+          </div>
+          <div class="ms-instructions">
+            <h6>说明</h6>
+            <ol>
+              <li><span>1、</span>此结算单不包括结算周期以外发生的款项，如有错漏，请与我司业务负责人联系。</li>
+              <li><span>2、</span>收到此结算单核对无误后请及时盖章并回传。（可以以扫描件形式发送给我司相关业务负责人）</li>
+              <li><span>3、</span>以上数据如有错误请在五天内告知，以便更在，否则当确认伦。<br>&nbsp;&nbsp;&nbsp;&nbsp;以上信息，请尽快核对，感谢贵司一直以来的支持和惠顾！</li>
+            </ol>
+            <p>
+              (签字/盖章）
+              <br>日期
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="media-statement-btn">
+      <button id="print-btn">下载</button>
+      <button class="ms-shut-down">返回</button>
+    </div>
+  </div>
+</div>
+<!--<script src="https://interactive-js.angpi.cn/1608860135538_jspdf-html2canvas.min.js"></script>-->
+<script>
+  var a = [1,2,3,4,5];  //定义数组
+  var b = a.slice(0,3);  //截取第三个元素到第六个元素前的所有元素
+  var c = a.slice(3)
+  $('.download_statement').on('click',function(){
+    $('.media-statement-box').show();
+  })
+  $('.ms-shut-down').on('click',function(){
+    $('.media-statement-box').hide();
+  })
+  $('.load_more').on('click',function (){
+    $('.load_list').show();
+  })
+  document.getElementById('print-btn').addEventListener('click', function() {
+    $('#dy_title').text($('#statements_title').text())
+    $('#dy_media_name').text($('#statements_name').text())
+    $('#dy_withdrawal').text($('#statements_withdrawal').text())
+    $('#dy_settlement_cycle').text($('#statements_data').text())
+    $('#dy_contact').text($('#statements_contact').val())
+    $('#dy_phone').text($('#statements_phone').val())
+    $('#dy_address').text($('#statements_address').val())
+    $('#dy_bank_card').text($('#statements_bank_card').val())
+    $('#dy_account_name').text($('#statements_person').val())
+    $('#dy_bank').text($('#statements_bank').val())
+    var target = document.getElementsByClassName("right-aside")[0];
+    target.style.background = "#FFFFFF";
+    html2canvas(target, {
+      onrendered:function(canvas) {
+        var contentWidth = canvas.width;
+        var contentHeight = canvas.height;
+
+        //一页pdf显示html页面生成的canvas高度;
+        var pageHeight = contentWidth / 592.28 * 841.89;
+        //未生成pdf的html页面高度
+        var leftHeight = contentHeight;
+        //页面偏移
+        var position = 0;
+        //a4纸的尺寸[595.28,841.89]，html页面生成的canvas在pdf中图片的宽高
+        var imgWidth = 595.28;
+        var imgHeight = 592.28/contentWidth * contentHeight;
+
+        var pageData = canvas.toDataURL('image/jpeg', 1.0);
+
+        var pdf = new jsPDF('landscape', 'pt', 'a4');
+
+        //有两个高度需要区分，一个是html页面的实际高度，和生成pdf的页面高度(841.89)
+        //当内容未超过pdf一页显示的范围，无需分页
+        if (leftHeight < pageHeight) {
+          pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth, imgHeight );
+        } else {
+          while(leftHeight > 0) {
+            pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight)
+            leftHeight -= pageHeight;
+            position -= 841.89;
+            //避免添加空白页
+            if(leftHeight > 0) {
+              pdf.addPage();
+            }
+          }
+        }
+
+        pdf.save("结算单.pdf");
+      }
+    })
+  });
+</script>
+<!-- 右侧栏主区main content end-->
+
+
+<!-- tags input -->
+
+
+<!-- jquery.validate -->
+<script type="text/javascript" src="./index/jquery.validate.min.js"></script>
+
+<!--jbox-->
+<script type="text/javascript" src="./index/jquery.jBox-2.3.min.js"></script>
+
+</body>
+</html>
